@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %} {% endblock %}</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+</head>
+
+<body>
+    <header>
+
+        <h1>Why should you study at CODE?</h1>
+        <nav>
+            <a class="menuButton" href="{{ url_for('home')}}">Home</a>
+            <a class="menuButton" href="{{ url_for('info')}}">Info</a>
+            <a class="menuButton" href="{{ url_for('contact')}}">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+
+</html>

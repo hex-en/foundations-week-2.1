@@ -1,0 +1,98 @@
+html, body{
+    margin:0;
+    height:100%;
+    font-family: 'Cutive Mono';
+    background-color: #010203;
+
+}
+header{   
+    height:16%;
+    width: 100%;
+    color:#F5F5F5;
+    margin:0;
+
+}
+h1{
+    padding-left:1vw;
+}
+nav{
+    border: 1px solid grey;
+    padding:5px;
+    height:30px;
+    background-color:#f5f5f5;
+    margin:0;
+    width:100%;
+
+}
+.menuButton{
+    width:70px;
+    float:left;
+    text-align:center;
+    height:30px;
+    color:#010203;
+    line-height:30px;
+   } 
+.menuButton:link {
+    text-decoration:none;
+}
+.menuButton:visited {
+    text-decoration:none;
+
+}  
+.menuButton:hover {
+    background-color:#cccccc;
+}
+.text{
+    color:#F5F5F5;
+}
+.contact form {
+    margin-top: 0px;
+    padding: 0px 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact h3 {
+    color: #488ace;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.contact p {
+    margin-left: 0px!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact label {
+    display: none;
+}
+.contact input {
+   width: 100%;
+    border: none;
+    border: 1px solid #dddddd78;
+    padding: 10px;
+    border-radius: 4px;
+}
+.contact textarea#message {
+    width: 100%;
+    height: 122px;
+    border: 1px solid #dddddd78;
+    border-radius: 4px;
+    padding: 10px;
+}
+.contact input#submit {
+    color: white;
+    background: linear-gradient(0.25turn,#2a78ca, #71a1d4);
+    float: right;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 23px;
+    /* margin-right: 10px; */
+    box-shadow: 0px 0px 4px 0px #00000087;
+    margin-top: 15px;
+}
+img{
+    margin-left:auto;
+    margin-right:auto;
+}
