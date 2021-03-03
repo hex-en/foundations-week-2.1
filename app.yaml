@@ -3,7 +3,7 @@ runtime: python38
 handlers:
 
 - url: /static
-  static_dir: styles
+  static_dir: style.css
 
 - url: /.*
   secure: always
